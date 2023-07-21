@@ -13,5 +13,5 @@ console.log('Before swap ==>','num1:',num1,"num2:",num2,"num3:",num3);
 var temp=num1
 num1=num2;
 num2=num3;
-num3=temp
+num3=temp;
 console.log('After swap ==>',"num1:",num1,"num2:",num2,"num3:",num3);
