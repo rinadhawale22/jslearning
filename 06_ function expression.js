@@ -27,14 +27,14 @@ var leapYear= function (year){
         console.log(`1945 is not a year`);
     }
     if (year>=null) {
-        console.log(`null is leap year `);
+        console.log(`null is vaild data`);
     }else{
-        console.log(`null is  not a leap year`);
+        console.log(`null is invaild data`);
     }
     if ("twenty twenty") {
-        console.log(`twenty twenty is not aleap year`);
+        console.log(`twenty twenty is valid data`);
     }else{
-        console.log(`twenty twenty is leap year`);
+        console.log(`twenty twenty is a invalid data`);
     }
     if (year>=undefined) {
         console.log(year>=undefined);
@@ -42,9 +42,9 @@ var leapYear= function (year){
         console.log(`undefined is a leap year`);
     }
     if (year>=NaN) {
-        console.log(`NaN is a year`);
+        console.log(`NaN is a vaid data`);
     }else{
-        console.log(`NaN is not a year`);
+        console.log(`NaN is invalid data`);
     }
     if (year>=1750) {
         console.log(`1750 is a leap year`);

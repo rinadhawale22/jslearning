@@ -3,7 +3,7 @@
     if (marks>=90) {
         console.log(`${marks} your grade is A+`);
     } else {
-        console.log(`funtastic marks : ${marks} your grade is A+`);  
+        console.log(`fantastic marks : ${marks} your grade is A+`);  
     }
     if (marks>=75 && marks>=90){
     console.log(`Excellent marks`);
