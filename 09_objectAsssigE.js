@@ -3,7 +3,7 @@ let sbibank={
     location:"pune",
     accountNo:"xxxxxx",
     ifsc:80%
-    interestRate:10
+    intrestRate:10
     show:function(){
         console.log(`sbi bank:${this.bankName},${this.location},${this.accountNo},${this.ifsc},${this.intrestRate}`);
     }
