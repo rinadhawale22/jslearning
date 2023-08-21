@@ -18,6 +18,23 @@ const jsonFormat=JSON.stringify(employee);
 console.log(jsonFormat); 
 
 console.log(`join year of employee:${employeeAddress}`);
-const employeeAddress=employee.address.year;
-employeeAddress=push(2019);
+const employeeAddress=employee.Address.year;
+employeeAddress=employee.push(2019);
+console.log(employeeAddress);
 
+// console.log(jsonString);
+
+//const employeeObj = JSON.parse(jsonDetails);
+
+// Log role as 'DEV'
+//console.log("Role:", employeeObj.role[0].toUpperCase());
+
+// Extract last name and log it
+//const fullNameParts = employeeObj.name.split(" ");
+//const lastName = fullNameParts[1];
+//console.log("Last Name:", lastName);
+
+// Extract and log joining year
+//const dojParts = employeeObj.doj.split("-");
+//const joiningYear = dojParts[2];
+//console.log("Joining Year", joiningYear);
