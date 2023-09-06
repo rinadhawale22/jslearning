@@ -1,0 +1,32 @@
+class employee{
+    costructor(emp_id,emp_name,emp_dept,emp_salary,emp_company){
+        this.emp_id=emp_id;
+        this.emp_name=emp_name;
+        this.emp_dept=emp_dept;
+        this.emp_salary=emp_salary;
+        this.emp_cpmpany=emp_company;
+    }
+}
+const emp_anil=new enmployee(22,"anil","IT",50000,"tcs");
+const emp_radha=new employee(33,"radha","hr",740000,"wipro");
+const emp_rishi=new employee(55,"rishi","finance",47000,"tcs");
+const emp_sonali=new employee(66,"sonali","finance",45000,"infy");
+const emp_monika=new employee(77,"monika","it",400000,"wipro");
+const emp_viny=new employee(88,"vinayak","it",4000,"wipro")
+const emp_mahi=new employee(99,"mahesh","HR",85000,"infy");
+
+arrayname.map((currentValue)=>{
+    currentValue
+console.log();
+})
+
+const =arraydept.filter((currentValue)=>{
+  return  currentValue.emp_dept.length>9
+})
+console.log(arraydept);
+
+const arrayStudents=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi];
+const = arrayStudents.filter((student)=>{
+    return student.emailid.length>9;
+})
+console.log(arrayStudents);
