@@ -20,7 +20,7 @@ arrayname.map((currentValue)=>{
 console.log();
 })
 
-const =arraydept.filter((currentValue)=>{
+const = arraydept.filter((currentValue)=>{
   return  currentValue.emp_dept.length>9
 })
 console.log(arraydept);

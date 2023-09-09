@@ -1,0 +1,40 @@
+class emloyee{
+    constructor(em_id,em_name,em_det,em_salary,em_comany){
+        this.em_id=em_id;
+        this.em_name=em_name;
+        this.em_det=em_det;
+        this.em_salary=em_salary;
+        this.em_comany=em_comany;
+    }
+}
+const em_anil=new emloyee(22,"anil","IT",50000,"TCS");
+const em_radha=new emloyee(33,"radha","HR",74000,"wiro");
+const em_rishi=new emloyee(55,"rishi","finance",47000,"TCS");
+const em_sonali=new employee(66,"sonali","finance",45000,"infy");
+const em_monika=new emloyee(77,"monika","IT",75000,"TCS");
+const em_viny=new emloyee(88,"vinayak","IT",75000,"TCS");
+const em_mahi=new emloyee(99,"mahesh","HR",85000,"infy");
+
+arrayemloyee.sort((emloyee)=>{
+    return emloyee.em_id;
+})
+console.log(arrayemloyee);
+
+arrayemloyee.sort((emloyee)=>{
+    return emloyee.em_det;
+})
+console.log(arrayemloyee);
+
+arrayemloye.sort((emloyee)=>{
+    return emloyee.em_comany;
+})
+console.log(em);
+
+arrayemloyee.sort((emloyee)=>{
+    return emloyee.em_salary,em_name,em_salary,em_comany;
+});
+console.log(em_salary,em_name,em_comany);
+
+
+
+
